@@ -11,7 +11,7 @@ spec:
   source:
     chart: datawire/edge-stack
     repoURL: https://app.getambassador.io
-    targetRevision: v5.16.0
+    targetRevision: v8.3.0
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
