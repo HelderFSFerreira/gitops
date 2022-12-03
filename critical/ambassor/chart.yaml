@@ -10,6 +10,10 @@ spec:
   project: default
   source:
     chart: datawire/edge-stack
+    helm:
+      parameters:
+        - name: installCRDs
+          value: "true"
     repoURL: https://app.getambassador.io
     targetRevision: v8.3.0
   syncPolicy:
