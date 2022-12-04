@@ -15,8 +15,9 @@ spec:
     repoURL: https://app.getambassador.io
     targetRevision: 8.3.0
   syncPolicy:
+    
+  syncPolicy:
     syncOptions:
       - CreateNamespace=true
-  syncPolicy:
     automated:
       prune: true
