@@ -12,7 +12,7 @@ spec:
     chart: datawire/edge-stack
     helm:
       releaseName: datawire/edge-stack
-    repoURL: https://app.getambassador.io
+    repoURL: datawire
     targetRevision: 8.3.0
   syncPolicy:
     syncOptions:
