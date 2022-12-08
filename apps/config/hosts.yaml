@@ -10,7 +10,7 @@ spec:
     authority: https://acme-v02.api.letsencrypt.org/directory
     email: admin@wounn.xyz
   tlsSecret:
-    name: tls2-cert
+    name: echo-tls2-cert
   requestPolicy:
     insecure:
       action: Redirect
@@ -28,7 +28,7 @@ spec:
     authority: https://acme-v02.api.letsencrypt.org/directory
     email: admin@wounn.xyz
   tlsSecret:
-    name: tls2-cert
+    name: argo-tls2-cert
   requestPolicy:
     insecure:
       action: Redirect
