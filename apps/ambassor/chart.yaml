@@ -1,21 +1,14 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: ambassador
-  namespace: argocd
-spec:
-  destination:
-    namespace: ambassador
-    server: https://kubernetes.default.svc
-  project: default
-  source:
-    chart: edge-stack
-    helm:
-      releaseName: edge-stack
-    repoURL: https://app.getambassador.io
-    targetRevision: 8.3.0
-  syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
-    automated:
-      prune: true
+apiVersion: v2
+name: ambassador
+
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 8.3.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: "3.3.0"

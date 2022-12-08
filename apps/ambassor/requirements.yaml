@@ -1,0 +1,4 @@
+dependencies:
+- name: edge-stack
+  version: 8.3.0
+  repository: https://app.getambassador.io
