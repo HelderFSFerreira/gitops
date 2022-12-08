@@ -14,7 +14,7 @@ spec:
     metadata:
       name: '{{path.basename}}'
     spec:
-      project: "my-project"
+      project: "default"
       source:
         repoURL: https://github.com/HelderFSFerreira/gitops.git
         targetRevision: HEAD
