@@ -7,3 +7,14 @@ spec:
   host: argocd.wounn.xyz
   prefix: /
   service: argocd-server:443
+
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: whoami-server-ui
+  namespace: whoami
+spec:
+  host: whoami.wounn.xyz
+  prefix: /
+  service: whoami:80
