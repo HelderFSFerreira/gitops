@@ -1,4 +1,4 @@
 dependencies:
-  - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 4.5.2
+  - name: whoami
+    repository: https://cowboysysop.github.io/charts/
+    version: 2.7.0
