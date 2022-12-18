@@ -61,8 +61,8 @@ mastodon:
     # -- you can also specify the name of an existing Secret
     # with keys AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
     existingSecret: "mastodon-s3-keys"
-    bucket: "mastodon2"
-    endpoint: "https://storage.googleapis.com"
+    bucket: "mastodon"
+    endpoint: "https://6f69eb15ec0a5662919d4bee9cecd014.r2.cloudflarestorage.com/mastodon"
     hostname: ""
     region: "eu"
     # -- If you have a caching proxy, enter its base URL here.
