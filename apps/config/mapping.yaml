@@ -28,4 +28,4 @@ metadata:
 spec:
   host: git.wounn.xyz
   prefix: /
-  service: gitea:3000
+  service: gitea-http:3000
