@@ -26,6 +26,6 @@ metadata:
   name: gitea-server-ui
   namespace: gitea
 spec:
-  host: gitea.wounn.xyz
+  host: git.wounn.xyz
   prefix: /
   service: gitea:3000
