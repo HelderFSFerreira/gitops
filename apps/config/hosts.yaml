@@ -51,3 +51,21 @@ spec:
     insecure:
       action: Redirect
       additionalPort: 8080
+
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: gitea-host
+  namespace: ambassador
+spec:
+  hostname: git.wounn.xyz
+  acmeProvider:
+    authority: https://acme-v02.api.letsencrypt.org/directory
+    email: admin@wounn.xyz
+  tlsSecret:
+    name: tls2-cert
+  requestPolicy:
+    insecure:
+      action: Redirect
+      additionalPort: 8080

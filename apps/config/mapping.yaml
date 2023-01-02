@@ -18,3 +18,14 @@ spec:
   host: whoami.wounn.xyz
   prefix: /
   service: whoami:80
+
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: gitea-server-ui
+  namespace: gitea
+spec:
+  host: gitea.wounn.xyz
+  prefix: /
+  service: gitea:3000
